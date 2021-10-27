@@ -5,7 +5,7 @@ import image from "./link.png"
 export default function About() {
     return (
         <>  
-            <div className={styles.bg-image}></div>
+            <div className={styles.bgimage}></div>
             <div className={styles.text}>
                 <p  className={styles.parrafo} >Hi, my name is Alex Goumaz, I am a student at "Hola soy Henry"   <br />
                 training me to become a web full stack devoloper so I create <br />

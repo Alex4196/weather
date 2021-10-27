@@ -19,7 +19,7 @@ export default function Cards() {
     return (
         <div className={styles.cards}>
             {cities && cities.map((city) => (
-                <div className={styles.caja}>
+                <div   key={city.id} className={styles.caja}>
 
                     <button className={styles.boton} onClick={() => handleClose(city.id)}>
 
